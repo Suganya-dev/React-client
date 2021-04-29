@@ -65,10 +65,6 @@ export const EntryList = () => {
 
       <h1>Entries</h1>
 
-      {/*
-            Pseudo Code
-            .filter(happyEntries => happyEntries.mood.label === "Happy")
-        */}
 
       <div className="entries">
         {filteredEntries.map(entry => {
